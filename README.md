@@ -1,4 +1,4 @@
-# Acute Kidney Injury (AKI) prediction based on patients clinical data
+# Acute Kidney Injury (AKI) Prediction Model Based on Patients Clinical Data
 
 In this mini project supervised by Dr. Uri Shalit and Rom Gutman, I delve into patient data sourced from Rambam Medical Center spanning 2004 to 2021.
 The dataset focuses on patients diagnosed with acute heart failure (AHF), adhering to the European Society of Cardiology criteria. This dataset encompasses a comprehensive array of information, including lab tests,
