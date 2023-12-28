@@ -8,11 +8,12 @@ physical measurements, medication records, demographic details, and administrati
 The primary goal was to predict the onset of Acute Kidney Injury (AKI) within the first 24 hours of admission.
 Predicting AKI early on is pivotal as it aids in identifying eligible candidates for a trial intervention.
 Understanding the possibility of AKI development is a critical aspect for potential intervention planning.
-To identify AKI, four criteria options are provided: a serum creatinine increase of at least 0.3 mg/dl, 0.5 mg/dl, 120%, or 150% concerning admission levels.
+To identify AKI, there are four criteria options provided: a serum creatinine increase of at least 0.3 mg/dl, 0.5 mg/dl, 120%, or 150% concerning admission levels.
 
 Within this repository, you will find:
 
-* Data Processing (data_processing): data cleaning and preprocessing steps. includs data tagging - patients were specifically tagged based on criteria indicative of AKI during data processing.
+* Data Processing (data_processing): data cleaning and preprocessing steps.
+  Including data tagging - patients were specifically tagged based on criteria indicative of AKI during data processing.
 * Feature Engineering (feature_engineering.ipynb): new features were built based on raw data insights.
 * Model Development (run_model.ipynb): Following the integration of all data sets, imputations and normalization procedures were executed.
   Subsequently, various models (XGBoost, Random-Forest, Logistic Regression-l1) were created to predict AKI using the initial 24-hour data.
